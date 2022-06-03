@@ -44,9 +44,9 @@ public class CalculatorController {
                     try {
 			
                         firstNumber = theView.getFirstNumber();
-                        secondNumber = theView.getFirstNumber();
+                        secondNumber = theView.getSecondNumber();
 				
-                        theModel.addTwoNumbers(firstNumber, firstNumber);
+                        theModel.addTwoNumbers(firstNumber, secondNumber);
 			
                         theView.setCalcSolution(theModel.getCalculationValue());			
                     }

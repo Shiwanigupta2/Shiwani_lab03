@@ -73,7 +73,7 @@ public class CalculatorView extends JFrame {
 	
 	public int getSecondNumber() {
 		
-		return Integer.parseInt(firstNumber.getText());		
+		return Integer.parseInt(secondNumber.getText());		
 	}
 	
 	public int getCalcSolution() {

@@ -17,11 +17,11 @@ public class CalculatorModel {
 	
     public void addTwoNumbers(int firstNumber, int secondNumber) {
 		
-	calculationValue = firstNumber + firstNumber;
+	calculationValue = firstNumber + secondNumber;
     }
 	
     public int getCalculationValue() {
 		
-	return calculationValue + 1;		
+	return calculationValue ;		
     }	
 } // end CalculatorModel
